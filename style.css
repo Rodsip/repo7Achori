@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 1000px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #4CAF50; /* Borde verde */
+}
+
+.right-column {
+    width: 70%;
+    padding-left: 20px;
+}
+
+.right-column p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+}
+
+.personal-data {
+    margin-top: 30px;
+}
+
+.personal-data h2 {
+    font-size: 1.5em;
+    color: #555;
+}
+
+.personal-data p {
+    font-size: 1em;
+    color: #777;
+    margin: 5px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.accept-button, .cancel-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.accept-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.accept-button:hover {
+    background-color: #45a049;
+}
+
+.cancel-button:hover {
+    background-color: #e53935;
+}
+
+/* Estilos para el pie de página */
+.copyright {
+    text-align: center;
+    font-size: 0.8em;
+    color: #aaa;
+    margin-top: 30px;
+}
